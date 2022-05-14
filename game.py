@@ -29,7 +29,7 @@ class Game:
             self.__array[pos[0]][pos[1]] = 'V'
         elif(self.__array[pos[0]][pos[1] + 1] == '' or self.__array[pos[0]][pos[1] + 1] == '*'):
             if(self.__array[pos[0]][pos[1] + 1] == '*'):
-                self.__array[pos[0]][pos[1] + 1] == robo
+                self.__array[pos[0]][pos[1] + 1] = robo
                 self.__array[pos[0]][pos[1]] = 'V'
                 self.__done = True
                 return print("O robô encontrou o final")
